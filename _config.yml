@@ -10,19 +10,15 @@ github_username:  spaam
 # google_analytics: UA-67802142-2
 
 # Build settings
-# Below theme is usable, but now included in source instead.
+# Below remote theme is usable, but for this site it's included in source instead.
 # remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
 permalink: /:title/
-paginate: 5
-paginate_path: "/page:num/"
-future: true
 navbar: light # other option dark
 navbar-bg: light # other option dark
-navbar-fixed-top: false
+navbar-fixed-top: false  # if true, also add _sass/bootstrap4-cdn.scss padding top
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-sitemap
 
 defaults:
