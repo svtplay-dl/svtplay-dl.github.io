@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Usage
+description: How to use svtplay-dl
 fa-icon: fas fa-graduation-cap
 ---
 

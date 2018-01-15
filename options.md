@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Options
+description: All available options for svtplay-dl
 fa-icon: fas fa-cog
 ---
 

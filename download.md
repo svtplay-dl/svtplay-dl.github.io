@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Download
-permalink: /archive/
+description: Download page for svtplay-dl
 fa-icon: fas fa-download
+permalink: /archive/
 ---
 
 <p class="lead">Before you download anything here, have a look at the <a href="/install/">install page</a> first.</p>

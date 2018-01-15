@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Install
+description: Installation instructions for svtplay-dl
 ---
 <p class="lead">Installing svtplay-dl is pretty simple. Follow the instuctions for your OS and you should be up and running in no time.</p>
 

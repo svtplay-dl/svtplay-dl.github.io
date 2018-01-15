@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Supported Sites
-permalink: /sites/
+description: Current supported sites for svtplay-dl
 fa-icon: fas fa-globe
+permalink: /sites/
 ---
 * aftonbladet.se
 * bambuser.com

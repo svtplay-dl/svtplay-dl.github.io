@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Donate
+description: If you like this project, please donate!
 fa-icon: fas fa-dollar-sign
 ---
 
