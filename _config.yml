@@ -1,0 +1,56 @@
+title: svtplay-dl
+email: j@i19.se
+description: >- # this means to ignore newlines until "baseurl:"
+  Small command-line program to download videos from various sites.
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: j0hanandersson
+github_username:  spaam
+# google_analytics: UA-67802142-2
+
+# Build settings
+# Below theme is usable, but now included in source instead.
+# remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
+permalink: /:title/
+paginate: 5
+paginate_path: "/page:num/"
+future: true
+navbar: light # other option dark
+navbar-bg: light # other option dark
+navbar-fixed-top: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "spaam"
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      author: "spaam"
+      layout: "page"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - README.md
+   - LICENSE
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
