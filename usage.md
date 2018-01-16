@@ -91,5 +91,9 @@ On the [options]({{ site.baseurl }}{% link options.md %}) page you can view all 
 
 ## Post processing
 
-Normally you are happy with the file.
-TODO
+In some cases you probably would like to change the media container of the video and audio streams. For example from .ts and .srt to .mkv where you have the subtitles included instead of two seperate files. FFmpeg is the swiss army knife for anything with video and audio.
+
+To merge video, audio and subtitles to one file without changing the quality (remux only)
+```bash
+ffmpeg -i video.file.ts -i subtitle.file.srt -metadata:s:a:0 language=eng -metadata:s:s:0 language=swe -c copy outfile.mkv
+```
