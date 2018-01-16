@@ -5,7 +5,7 @@ description: All available options for svtplay-dl
 fa-icon: fas fa-cog
 ---
 
-<p class="lead">And overview of all the options svtplay-dl has to offer.</p>
+<p class="lead">An overview of all the options svtplay-dl has to offer.</p>
 
 ```plaintext
 Usage: svtplay-dl [options] [urls]
