@@ -7,11 +7,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: j0hanandersson
 github_username:  spaam
-# google_analytics: UA-67802142-2
+# google_analytics: UA-67802142-1
 
 # Build settings
 # Below remote theme is usable, but for this site it's included in source instead.
 # remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
+
 permalink: /:title/
 navbar: light # other option dark
 navbar-bg: light # other option dark
@@ -38,15 +39,8 @@ defaults:
       layout: "page"
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
    - Gemfile
    - Gemfile.lock
    - README.md
    - LICENSE
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
